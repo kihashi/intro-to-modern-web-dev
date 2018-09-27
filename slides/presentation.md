@@ -1,10 +1,15 @@
 title: Web Development for Dinosaurs
+subtitle: An Introduction to Modern Web Development
+speaker: John Cleaver
+company: Factivity, Inc.
+email: johnc@factivity.com
+conference: PUG Challenge Americas 2018
 class: animation-fade
 layout: true
 
 <!-- This slide will serve as the base layout for all your slides -->
 .bottom-bar[
-  {{title}}
+  {{subtitle}} - {{conference}}
 ]
 
 ---
@@ -12,68 +17,56 @@ layout: true
 class: impact
 
 # {{title}}
-## With a good subtitle :-)
+## {{subtitle}}
 
 ---
 
-# The basics
+name: Speaker Bio
+class: center, middle
 
-## Getting started
+# Who Am I?
 
-Use [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to write your slides. Don't be afraid, it's really easy!
-
---
-
-## Making points
-
-Look how you can make *some* points:
---
-
-- Create slides with your **favorite text editor**
---
-
-- Focus on your **content**, not the tool
---
-
-- You can finally be **productive**!
+## {{speaker}}
+### Senior Developer at {{company}}
 
 ---
 
-# There's more
+name: Company Bio
 
-## Syntax highlighting
+# {{company}}
 
-You can also add `code` to your slides:
-```html
-<div class="impact">Some HTML code</div>
-```
-
-## CSS classes
-
-You can use .alt[shortcut] syntax to apply .big[some style!]
-
-...or just <span class="alt">HTML</span> if you prefer.
+Factivity is a world leader in touch-based Manufacturing Execution Systems.
 
 ---
 
-# And more...
+name: Agenda
 
-## 12-column grid layout
+# Agenda
 
-Use to the included **grid layout** classes to split content easily:
-.col-6[
-  ### Left column
+- Web Timeline
+- Modern Web Application Technologies
+- Application Demo
 
-  - I'm on the left
-  - It's neat!
-]
-.col-6[
-  ### Right column
+---
 
-  - I'm on the right
-  - I love it!
+.row[
+.col-6.center[
+  ### Slides
+
+  ![Slides](https://i.imgur.com/2GDHetT.png)
 ]
 
-## Learn the tricks
+.col-6.center[
+  ### Code
 
-See the [wiki](https://github.com/gnab/remark/wiki) to learn more of what you can do with .alt[Remark.js]
+  ![Code](https://i.imgur.com/1jBNvzL.png)
+]
+
+]
+
+.row[
+  .col-12.center[
+# {{speaker}}
+##{{email}}
+  ]
+]
