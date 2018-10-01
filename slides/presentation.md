@@ -70,6 +70,12 @@ background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e8/Webdev
 
 ---
 
+class: impact
+
+# Modern Front End Web Developement
+
+---
+
 .row[
 .col-4.center[
   ### Slides
