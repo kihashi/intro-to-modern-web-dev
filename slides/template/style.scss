@@ -6,7 +6,7 @@ $secondary        : #009688;
 $tertiary         : #757575;
 $light            : #FFF;
 $dark             : #333;
-$text-dark        : #212121; 
+$text-dark        : #212121;
 $text-light       : $light;
 $code-background  : #F8F8F8;
 $overlay          : transparentize(#000, .5);
@@ -212,5 +212,17 @@ blockquote {
     transform: scale(1) !important;
     top: 0 !important;
     left: 0 !important;
+  }
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 0.5rem solid #000;
+
+  td {
+    text-align: center;
+    border: 0.1rem solid #000;
   }
 }
