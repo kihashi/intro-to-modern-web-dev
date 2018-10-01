@@ -50,13 +50,19 @@ name: Agenda
 ---
 
 .row[
-.col-6.center[
+.col-4.center[
   ### Slides
 
   ![Slides](https://i.imgur.com/2GDHetT.png)
 ]
 
-.col-6.center[
+.col-4.center[
+  ### Web Site
+
+  ![Web Site](https://i.imgur.com/kN648bp.png)
+]
+
+.col-4.center[
   ### Code
 
   ![Code](https://i.imgur.com/1jBNvzL.png)
